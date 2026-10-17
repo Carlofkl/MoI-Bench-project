@@ -20,7 +20,7 @@ python3 -m http.server 8000
 - `huggingface`：数据集、模型或 Space 的完整 HTTPS 链接。
 - `bibtex`：最终 BibTeX。当前为空，复制按钮禁用；填入后自动启用。
 
-以上链接为空时显示 Coming soon，不会跳到假的仓库。作者与机构信息来自当前论文；可在 `index.html` 中修改。Bo Chen 和 Yang Pan 按作者要求标为 ByteDance。
+以上链接为空时显示 Coming soon，不会跳到假的仓库。作者与机构信息可在 `index.html` 中修改。按作者最新要求：Kailai Feng、Chengkun Cai 和 Jagmohan Chauhan 为 UCL，Yuxiang Wei 为香港理工大学，其余作者均为 ByteDance。
 
 论文按钮指向 `assets/paper/MoI-Bench.pdf`，可用最终公开版替换它。所有路径都是相对路径，支持 `https://<owner>.github.io/<repository>/` 子路径部署。
 
