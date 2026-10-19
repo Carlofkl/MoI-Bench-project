@@ -61,3 +61,5 @@ python3 -m http.server 8000
 GitHub Pages 工作流依据：[官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
 
 补充材料样例：`examples.js` 定义各标签页的图片列表，`assets/images/supplement/` 保存从补充材料拆出的 64 个样例（Generation、Local editing、Global editing、Understanding editing、Reference editing）。
+
+访问量：页脚使用 hits.sh 的 Page views 徽标，统计徽标加载次数，非独立访客人数，且不是网站历史累计流量。

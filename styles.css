@@ -29,3 +29,9 @@
 
 .equal-contribution { margin: 12px 0 0; color: #64748b; font-size: 14px; }
 .sample-card.wide-example { grid-column: 1 / -1; }
+
+/* Shared section-heading typography. */
+#overview-title,#examples-title,#results-title,#operation-target-title,#deployment-title,#dataset-title{font-size:31px;font-weight:600;line-height:1.25;letter-spacing:-.8px}
+.footer{gap:24px;flex-wrap:wrap}.visit-counter{display:inline-flex;align-items:center}.visit-counter img{width:auto;height:20px}
+@media(max-width:800px){#overview-title,#examples-title,#results-title,#operation-target-title,#deployment-title,#dataset-title{font-size:28px}}
+@media(max-width:620px){#overview-title,#examples-title,#results-title,#operation-target-title,#deployment-title,#dataset-title{font-size:26px}}
