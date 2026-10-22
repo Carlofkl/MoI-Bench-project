@@ -75,8 +75,8 @@ window.MOI_BENCH_EXAMPLES = {
       "height": 459
     },
     {
-      "src": "assets/images/supplement/13.webp",
-      "alt": "13 Local(Replace)\u00d7Portrait(Clothing&Accessories)",
+      "src": "assets/images/supplement/13.svg",
+      "alt": "13 Local(Addition)\u00d7Portrait(Clothing&Accessories)",
       "width": 1300,
       "height": 439
     },

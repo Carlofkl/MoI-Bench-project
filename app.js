@@ -19,7 +19,7 @@
       link.removeAttribute('aria-disabled');
       link.querySelector('small')?.remove();
     } else {
-      const message = `${key === 'github' ? 'GitHub repository' : 'Hugging Face dataset'} coming soon.`;
+      const message = `${key === 'github' ? 'GitHub repository' : 'Paper'} coming soon.`;
       link.addEventListener('click', e => { e.preventDefault(); notify(message); });
       link.addEventListener('keydown', e => {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); notify(message); }

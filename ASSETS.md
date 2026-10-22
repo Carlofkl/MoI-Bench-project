@@ -21,3 +21,5 @@ Color palette follows https://carlofkl.github.io/dreamlite/ (#2563eb, #1d4ed8, #
 Supplement examples updated from `_ArXiv__MI_Bench (1).pdf` (39 pages), Figures 7–12 on pages 34–39: 64 separate crops preserving original titles, prompts and model labels. Examples 63–64 retain their full-width layouts. Paper download is unchanged.
 
 Website renamed to MoI-Bench / MoI-Eval. The downloadable PDF filename is MoI-Bench.pdf; its manuscript contents remain the supplied version pending a renamed manuscript.
+
+Sample 13 uses `13.svg`, which embeds the original WebP and corrects only the heading to Local (Addition); the input, outputs and instruction remain unchanged.
