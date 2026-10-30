@@ -17,12 +17,12 @@ python3 -m http.server 8000
 编辑 `site-config.js`：
 
 - `github`：论文代码仓库完整 HTTPS 链接。
-- `paper`：论文的 arXiv HTTPS 链接，当前留空。
+- `paper`：论文的 arXiv HTTPS 链接，当前为 `https://arxiv.org/pdf/2610.37599v1`。
 - `bibtex`：最终 BibTeX。当前为空，复制按钮禁用；填入后自动启用。
 
 以上链接为空时显示 Coming soon，不会跳到假的仓库。作者与机构信息可在 `index.html` 中修改。按作者最新要求：Kailai Feng、Chengkun Cai 和 Jagmohan Chauhan 为 UCL，Yuxiang Wei 为香港理工大学，其余作者均为 ByteDance。
 
-Paper 入口暂不链接，显示 Coming soon，后续在配置中添加 arXiv 链接。所有路径都是相对路径，支持 `https://<owner>.github.io/<repository>/` 子路径部署。
+Paper 入口已链接至 arXiv 论文；后续可在配置中更新链接。所有路径都是相对路径，支持 `https://<owner>.github.io/<repository>/` 子路径部署。
 
 ## GitHub Pages 发布（独立项目主页仓库）
 
